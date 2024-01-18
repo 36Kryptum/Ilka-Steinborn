@@ -1335,7 +1335,7 @@
 }
 
 .fs-cc-prefs_close {
-  z-index: 1;
+  z-index: 100;
   color: #333;
   cursor: pointer;
   background-color: #f5f6ff;
