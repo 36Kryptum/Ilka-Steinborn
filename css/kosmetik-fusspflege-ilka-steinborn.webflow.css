@@ -547,6 +547,7 @@
   margin-bottom: 50px;
   padding-bottom: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .div-block {
@@ -892,7 +893,7 @@
 }
 
 .html-embed {
-  width: 50%;
+  width: 100%;
   height: 100%;
   flex: none;
 }
@@ -1463,6 +1464,11 @@
 .fs-cc-manager_icon {
   width: 2rem;
   height: 2rem;
+  color: var(--anotheraccent);
+}
+
+.fs-cc-manager_icon:hover {
+  color: var(--primary);
 }
 
 .fs-cc-banner_text {
@@ -1583,6 +1589,24 @@
 
 .bold-text {
   color: var(--primary);
+}
+
+.div-block-20 {
+  width: 50%;
+  height: 100%;
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/map.webp');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
 }
 
 @media screen and (max-width: 991px) {
