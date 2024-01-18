@@ -1823,6 +1823,10 @@
   .fs-cc-banner_text {
     margin-right: 0;
   }
+
+  .div-block-20 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2054,7 +2058,7 @@
   .paragraph {
     width: auto;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 0;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -2185,6 +2189,10 @@
 
   .impress_image {
     height: 200px;
+  }
+
+  .grid-3 {
+    grid-template-columns: 100%;
   }
 
   .product {
